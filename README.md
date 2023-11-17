@@ -22,14 +22,16 @@ Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 ```bash
 python main.py repo_owner repo_name --summary-only
-
+```
 
 ### Command-Line Options
+
 repo_owner: GitHub repository owner.
 repo_name: GitHub repository name.
 --summary-only: Print a summary of metrics without detailed information.
